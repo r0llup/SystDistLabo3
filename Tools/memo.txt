@@ -1,0 +1,25 @@
+si le numerojoueur = numéero recu de initgame
+=>=
+		il permet els deplacememnts 'uniquement d la bonne couleur => DONE
+		alors celui la commence la partie => DONE startGame()
+		appel a l'ejb startGame(); => DONE
+		des qu'un deplacement est enregistre:
+			appel de la methode toNextPlayer() if validmovement=> toNextPlayer()
+			bloquage des deplacements
+			bloque les deplacements
+		attend (wait?) que 
+
+		whoIsPlaying() passe a mon numéro de joueur
+
+l'autre joueur
+		bloque les deplacements
+		attend (wait?) que 
+
+		whoIsPlaying() passe a mon numéro de joueur
+
+
+
+
+jms:
+
+			refresh de la table (toute les pieces)
